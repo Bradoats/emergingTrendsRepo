@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 Messages
+
+  ul
+    each message in messages
+      li
+        p #{message.text}
+        p Posted by #{message.user} on #{message.added.toDateString()}
