@@ -1,8 +1,30 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+div {
+  background-color: #FFD700;
+  border-radius:15px;
+  margin-bottom: 7px;
+}
+
+h1 {
+  font-size: 50px;
+  color: blue;
 }
 
 a {
   color: #00B7FF;
+}
+
+button {
+  size: 100px;
+  background-color: purple;
+  font-size: 50px;
+}
+
+p {
+  background-color: #FFD700;
 }
