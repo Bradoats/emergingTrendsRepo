@@ -1,7 +1,7 @@
 // Set up mongoose connection
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', false);
-const mongoDB = "insert_your_database_url_here";
+const mongoDB = "mongodb+srv://myUser:password654@myatlasclusteredu.abgkctd.mongodb.net/test";
 
 main().catch(err => console.log(err));
 async function main() {
